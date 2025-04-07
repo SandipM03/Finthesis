@@ -57,26 +57,8 @@ cd finance-platform
 ```bash
 npm install
 ```
-### 3.Set up environment variables
-Create a .env.local file with the following:
-```bash
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=s
 
-NEXT_PUBLIC_CLERK_SIGN_IN_URL=
-NEXT_PUBLIC_CLERK_SIGN_UP_URL=
-
-
-
-DATABASE_URL=""
-
-# Direct connection to the database. Used for migrations.
-DIRECT_URL=""
-
-ARCJET_KEY=
-GOOGLE_GENERATIVE_AI_API_KEY=
-```
-### 4. Run the app
+### 3. Run the app
 ```bash
 npm run dev
 ```
